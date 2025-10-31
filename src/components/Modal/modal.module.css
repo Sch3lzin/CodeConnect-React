@@ -1,0 +1,42 @@
+.dialog {
+  border: none;
+  border-radius: 16px;
+  padding: 2rem;
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  width: 450px;
+  max-width: 90%;
+  box-shadow: 0 0 25px rgba(0, 255, 136, 0.25);
+  animation: fadeIn 0.3s ease-in-out;
+  position: relative;
+}
+
+/* Fundo escurecido quando o modal está aberto */
+.dialog::backdrop {
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+}
+
+/* Cabeçalho e botão de fechar */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.header button {
+  background: transparent;
+  color: #00ff88;
+  font-size: 1.1rem;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 2px 6px;
+}
+
+.header button:hover {
+  color: #111;
+  background-color: #00ff88;
+  box-shadow: 0 0 10px rgba(0, 255, 136, 0.6);
+}
