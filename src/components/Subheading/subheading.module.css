@@ -1,3 +1,10 @@
+:global(._comments_zliii_1) .subheading {
+  color: #81fe88 !important;
+  font-size: 31px !important;
+  line-height: 120% !important;
+  margin-bottom: 20px;
+}
+
 .subheading {
   color: #81fe88;
   font-size: 31px;
